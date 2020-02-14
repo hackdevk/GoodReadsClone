@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.project.goodreadsclone.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_my_books"
+        android:name="com.project.goodreadsclone.ui.my_books.MyBooksFragment"
+        android:label="@string/menu_myBooks"
+        tools:layout="@layout/fragment_my_books" />
+
+    <fragment
+        android:id="@+id/nav_friends"
+        android:name="com.project.goodreadsclone.ui.friends.FriendsFragment"
+        android:label="@string/menu_friends"
+        tools:layout="@layout/fragment_friends" />
+
+    <fragment
+        android:id="@+id/nav_challenge_progress"
+        android:name="com.project.goodreadsclone.ui.reading_challenge.ReadingChallengeFragment"
+        android:label="@string/menu_challenge_progress"
+        tools:layout="@layout/fragment_challenge_progress" />
+
+    <fragment
+        android:id="@+id/nav_recomendations"
+        android:name="com.project.goodreadsclone.ui.recommendations.RecommendationsFragment"
+        android:label="@string/menu_recommendations"
+        tools:layout="@layout/fragment_recommendations" />
+
+    <fragment
+        android:id="@+id/nav_best_books"
+        android:name="com.project.goodreadsclone.ui.best_books_of_year.BestBooksOfYearFragment"
+        android:label="@string/menu_best_books"
+        tools:layout="@layout/fragment_best_books" />
+
+<!--    newly created fragments -->
+    <fragment
+        android:id="@+id/nav_explore_books"
+        android:name="com.project.goodreadsclone.ui.explore_books.ExploreBooksFragment"
+        android:label="@string/menu_explore"
+        tools:layout="@layout/fragment_explore_books" />
+    <fragment
+        android:id="@+id/nav_scan_books"
+        android:name="com.project.goodreadsclone.ui.scan_books.ScanBooksFragment"
+        android:label="@string/menu_scan_books"
+        tools:layout="@layout/fragment_scan_books" />
+    <fragment
+        android:id="@+id/nav_settings_support"
+        android:name="com.project.goodreadsclone.ui.settings_and_support.SettingsAndSupportFragment"
+        android:label="@string/menu_settings_support"
+        tools:layout="@layout/fragment_settings_and_support" />
+</navigation>

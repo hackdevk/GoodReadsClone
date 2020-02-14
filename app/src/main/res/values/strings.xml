@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Good Reads</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--CUSTOM STRING VARIABLES-->
+    <string name="app_name_style">good<strong>reads</strong></string>
+    <string name="email_signup">Continue with email</string>
+    <string name="terms_of_use_1">Welcome to Goodreads.com, the website and online service of Goodreads LLC (together with its affiliates, "Goodreads"
+        "we," or "us"). This page explains the terms by which you may use our service. By accessing or using the Goodreads services, website and software
+        provided through or in connection with the service ("Service"), you signify that you have read, understood, and agree to be bound by this Terms of
+        Use Agreement, the Goodreads Privacy Policy, the Amazon.com Conditions of Use, and the other applicable rules, policies and terms posted on the
+        Goodreads.com website or provided with the Service (collectively, this "Agreement"), whether or not you are a registered user of our Service.
+    </string>
+    <string name="terms_of_use_2">We reserve the right to amend this Agreement at any time in our sole discretion by posting the revised Agreement on the
+        Goodreads.com website. Your continued use of the Service after any such changes constitutes your acceptance of the revised Agreement. This
+        Agreement applies to all visitors, users, and others who access the Service ("Users").
+    </string>
+    <string name="use_of_our_service_1">Goodreads provides a place for you to discover, track, and talk about books with friends and our community.</string>
+    <string name="use_of_our_service_2">You do not have to register in order to visit Goodreads. To access certain features of the Service, though, including
+        creating "bookshelves" to organize what you\'ve read, posting book reviews, and commenting on other members\' reviews, you will need to register with
+        Goodreads and create a "Member" account. Your account gives you access to the services and functionality that we may establish and maintain from time
+        to time and in our sole discretion.</string>
+    <string name="use_of_our_service_3">You may never use another Member’s account without permission. You are responsible for maintaining the confidentiality
+        of your account and password and for restricting access to your account, and you agree to accept responsibility for all activities that occur under
+        your account or password. You agree to notify Goodreads immediately of any breach of security or unauthorized use of your account.</string>
+    <string name="use_of_our_service_4">You may change the settings on your My Account page to control your profile and how other members communicate with
+        you. By providing Goodreads your email address you consent to our using the email address in accordance with our Privacy Policy.</string>
+    <string name="use_of_our_service_5">Subject to your compliance with this Agreement and your payment of any applicable fees, we grant you a limited,
+        non-exclusive, non-transferable, non-sublicensable license to access and make personal and non-commercial use of the Service. This license does
+        not include any resale or commercial use of any part of the Service, or its contents; any collection and use of any book listings, descriptions,
+        reviews or other material included in the Service; any derivative use of any part of the Service or its contents; any downloading, copying, or
+        other use of account information for the benefit of any third party; or any use of data mining, robots, or similar data gathering and extraction
+        tools. All rights not expressly granted to you in this Agreement are reserved and retained by us or our licensors, suppliers, publishers,
+        rightsholders, or other content providers. No part of the Service may be reproduced, duplicated, copied, sold, resold, visited, or otherwise
+        exploited for any commercial purpose without our express written consent. You may not frame or utilize framing techniques to enclose any trademark,
+        logo, or other proprietary information (including images, text, page layout, or form) of Goodreads without our express written consent. You may not
+        use any meta tags or any other "hidden text" utilizing our name or trademarks without our express written consent. You may not misuse the Service.
+        You may use the Service only as permitted by law. The licenses granted by us terminate if you do not comply with this Agreement.</string>
+    <string name="use_of_our_service_6">In order to protect our Members from unsolicited advertising or solicitation, Goodreads reserves the right to
+        restrict the number of communications that a Member may send to other Members in any 24-hour period to a number that Goodreads deems appropriate
+        in its sole discretion.</string>
+    <string name="use_of_our_service_7">
+        Goodreads may permanently or temporarily terminate, suspend, or otherwise refuse to permit your access to the Service without notice and liability
+        for any reason, including if in Goodreads\' sole determination you violate any provision of this Agreement, or for no reason. Upon termination for
+        any reason or no reason, you continue to be bound by this Agreement.</string>
+    <string name="use_of_our_service_8">
+        The Service is subject to scheduled and unscheduled service interruptions. All aspects of the Service are subject to change or elimination at
+        Goodreads‘s sole discretion. You agree that Goodreads will not be liable to you for any interruption of the Service, delay or failure to perform.
+    </string>
+    <string name="use_of_our_service_9">
+        You are solely responsible for your interactions with other Goodreads Users. We reserve the right, but have no obligation, to monitor disputes
+        between you and other Users. Goodreads shall have no liability for your interactions with other Users, or for any User’s action or inaction.</string>
+
+
+    <!--    APP HEADINGS -->
+
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_signup">Sign Up for Goodreads</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_myBooks">My Books</string>
+    <string name="menu_friends">Friends</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+
+    <string name="menu_recommendations">Recommendations</string>
+    <string name="menu_best_books">Best Books of 2019</string>   <!-- the year should be dynamically generated-->
+    <string name="menu_explore">Explore</string>
+    <string name="menu_scan_books">Scan books</string>
+    <string name="menu_settings_support">Settings and Support </string>
+
+    <string name="menu_send">Send</string>
+    <string name="menu_challenge_progress">Challenge progress</string>
+    <string name="title_activity_terms_of_use">TermsOfUseActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>

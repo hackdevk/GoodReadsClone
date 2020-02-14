@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".TermsOfUseActivity"
+        tools:showIn="@layout/activity_terms_of_use"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_heading"
+            android:text="Terms of Use"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_policy"
+            android:textSize="13sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_heading"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content1"
+            android:textSize="16sp"
+            android:text="This Agreement was last revised on Dec 6,2017."
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_policy"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content2"
+            android:textSize="16sp"
+            android:text="@string/terms_of_use_1"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content1"
+            app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content3"
+            android:textSize="16sp"
+            android:text="@string/terms_of_use_2"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content2"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_heading2"
+            android:text="1. Use of Our Service"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content3"
+            app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content4"
+            android:textSize="19sp"
+            android:text="@string/use_of_our_service_1"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_heading2"
+            app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content5"
+            android:textSize="19sp"
+            android:text="@string/use_of_our_service_2"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content4"
+            app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content6"
+            android:textSize="19sp"
+            android:text="@string/use_of_our_service_3"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content5"
+            app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content7"
+            android:textSize="19sp"
+            android:text="@string/use_of_our_service_4"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content6"
+            app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content8"
+            android:textSize="19sp"
+            android:text="@string/use_of_our_service_5"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content7"
+            app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content9"
+            android:textSize="19sp"
+            android:text="@string/use_of_our_service_6"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content8"
+            app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content10"
+            android:textSize="19sp"
+            android:text="@string/use_of_our_service_7"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content9"
+            app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content11"
+            android:textSize="19sp"
+            android:text="@string/use_of_our_service_8"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content10"
+            app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_terms_of_use_tv_content12"
+            android:textSize="19sp"
+            android:text="@string/use_of_our_service_9"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/content_terms_of_use_tv_content11"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

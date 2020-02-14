@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#008577</color>-->
+    <color name="colorPrimary">#F0E7D9</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+<!--    custom colors-->
+    <color name="fb_btn_color">#2C31D8</color>
+    <color name="amazon_btn_color">#E4AF30</color>
+    <color name="white_color">#FFF7F7</color>
+    <color name="black_color">#200000</color>
+    <color name="brown_color">#ED6B4919</color>
+    <color name="colorPrimaryLight">#FCF4EF</color>
+    <color name="navBarColor">#413E3E</color>
+
+</resources>
